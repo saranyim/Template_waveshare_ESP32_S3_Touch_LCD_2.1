@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "lvgl.h": "c",
+        "*.tcc": "cpp",
+        "fstream": "cpp"
+    }
+}
