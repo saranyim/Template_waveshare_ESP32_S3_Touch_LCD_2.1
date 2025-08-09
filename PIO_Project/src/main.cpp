@@ -9,7 +9,7 @@
 #include "LVGL_Driver.h"
 #include "LVGL_Example.h"
 #include "BAT_Driver.h"
-
+#include "ui.h"
 
 void Driver_Loop(void *parameter)
 {
@@ -49,9 +49,9 @@ void setup()
   LCD_Init();                                     // If you later reinitialize the LCD, you must initialize the SD card again !!!!!!!!!!
   // SD_Init();                                      // It must be initialized after the LCD, and if the LCD is reinitialized later, the SD also needs to be reinitialized
   Lvgl_Init();
+  ui_init();
 
-
-  Lvgl_Example1();
+  // Lvgl_Example1();
   // lv_demo_widgets();               
   // lv_demo_benchmark();          
   // lv_demo_keypad_encoder();     
