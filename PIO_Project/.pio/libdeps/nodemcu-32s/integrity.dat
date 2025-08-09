@@ -1,0 +1,4 @@
+-I lib/Gt911-arduino-main
+-I lib/ESP32-audioI2S-master
+-I lib/Lvgl
+-I lib/Arduino_GFX-master
